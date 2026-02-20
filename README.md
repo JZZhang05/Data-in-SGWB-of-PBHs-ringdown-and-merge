@@ -4,10 +4,10 @@ This repository contains the data from the paper "Gravitational Waves from Primo
 
 ## PBH ringdown
 
-In the PBHringdown folder, the filenames are formatted as OmegaGW_sPBH_<Color>.csv (e.g., OmegaGW_sPBH_Blue.csv), where <Color> corresponds to the parameter benchmark points used in the paper. Each table is in .csv format and includes the header Frequency (Hz),OmegaGW. The corresponding data structure is: {{$f_0$, $\Omega_0$}, ..., {$f_n$, $\Omega_n$}}, where $f$ and $\Omega$ represent the observed frequency of the gravitational waves (in Hz) and the logarithmic value of the corresponding GW energy density fraction $\log_{10}\Omega_{\text{GW}}h^2$, respectively.
+In the PBH ringdown folder, the filenames are formatted as OmegaGW_ringdown_<Color>.csv (e.g., OmegaGW_ringdown_Blue.csv), where <Color> corresponds to the parameter benchmark points used in the paper. Each table is in .csv format and includes the header Frequency (Hz),OmegaGW. The corresponding data structure is: {{$f_0$, $\Omega_0$}, ..., {$f_n$, $\Omega_n$}}, where $f$ and $\Omega$ represent the observed frequency of the gravitational waves (in Hz) and the logarithmic value of the corresponding GW energy density fraction $\log_{10}\Omega_{\text{GW}}h^2$, respectively.
 
 ## PBHs merge
 
-In the merge folder, the filenames are formatted as OmegaGW_merge_<Color>.csv (e.g., OmegaGW_merge_Blue.csv), where <Color> corresponds to the parameter benchmark points used in the paper. Each table is also in .csv format and includes the header Frequency (Hz),OmegaGW. The corresponding data structure is as follows: {{$f_0$, $\Omega_0$}, ..., {$f_n$, $\Omega_n$}}, where $f$ and $\Omega$ represent the observed frequency of the gravitational waves (in Hz) and the logarithmic value of the corresponding GW energy density fraction $\log_{10}\Omega_{\text{GW}}h^2$, respectively.
+In the PBHs merge folder, the filenames are formatted as OmegaGW_merge_<Color>.csv (e.g., OmegaGW_merge_Blue.csv), where <Color> corresponds to the parameter benchmark points used in the paper. Each table is also in .csv format and includes the header Frequency (Hz),OmegaGW. The corresponding data structure is as follows: {{$f_0$, $\Omega_0$}, ..., {$f_n$, $\Omega_n$}}, where $f$ and $\Omega$ represent the observed frequency of the gravitational waves (in Hz) and the logarithmic value of the corresponding GW energy density fraction $\log_{10}\Omega_{\text{GW}}h^2$, respectively.
 
 If you have any questions or are interested in related fields, please contact caiyong@zzu.edu.cn.
